@@ -40,7 +40,7 @@ $ composer dump-autoload
 ```php
 LaravelPejer::whatsapp()
             ->sendMessage('<your-phone-number>', '<your-mesage>')
-            ->json()
+            ->ok()
 ```
 
 ### Validate Whatsapp Number
