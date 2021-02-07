@@ -1,0 +1,26 @@
+{
+    "name": "arcphysx/laravel-pejer",
+    "description": "Pejer API Wrapper For Laravel and Lumen",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^6.0|^7.0",
+        "php": "^7.2",
+		"guzzlehttp/guzzle": "^6.3.1|^7.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1@dev"
+    },
+    "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "Arcphysx\\LaravelPejer\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "arcphysx",
+            "email": "arcphysx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
